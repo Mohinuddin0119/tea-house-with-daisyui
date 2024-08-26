@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/d5be297d9f.js" crossorigin="anonymous"></script>
     <!-- tailwind custom color -->
     <script>
         tailwind.config = {
@@ -30,11 +32,38 @@
       </style>
 
 </head>
-<body class="font-manrope">
-    <header>
-      <h1>hello bangladesh</h1>
+<body class="font-manrope bg-white text-black">
+    <header class="container mx-auto">
+      <div class="hero">
+          <div class="hero-content bg-fuchsia-100  flex-col md:flex-row lg:flex-row">
+            <div>
+              <h1 class="text-7xl font-extrabold">It's good <br>
+                tea time at The <br>
+                 Tea House</h1>
+              <p class="py-6">
+                Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+              </p>
+              <button class="btn btn-primary">Explore more</button>
+            </div>
+            <div class="relative">
+              <div>
+                <img
+                src="./images/banner.png"
+                class="max-w-sm" />
+              </div>
+                <!-- rating badge -->
+                <div class=" flex items-center gap-3 shadow-xl w-60 p-5 absolute bottom-1">
+                    <i class="fa-solid fa-star text-4xl text-amber-400"></i>
+                  <div>
+                    <h3>5.00</h3>
+                    <p>Trust Pilot Ratings</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
     </header>
-    <main>
+    <main class="">
 
     </main>
     <footer>
