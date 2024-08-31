@@ -53,7 +53,7 @@
                 class=" mb-3" />
               </div>
                 <!-- rating badge -->
-                <div class=" absolute top-[190px] md:top-[380px]  lg:top-[380px] ml-[100px] rounded-lg bg-white flex items-center gap-3 shadow-xl w-40 lg:w-60 p-5">
+                <div class=" absolute top-[190px] md:top-[380px]  lg:top-[380px] ml-[100px] rounded-lg bg-white flex items-center gap-3 shadow-xl w-40 md:w-60 lg:w-60 p-5">
                     <i class="fa-solid fa-star text-xl lg:text-4xl text-amber-400"></i>
                   <div>
                     <h3>5.00</h3>
@@ -234,8 +234,63 @@
           </div>
         </section>
     </main>
-    <footer>
 
+
+
+
+
+
+
+    <footer class="">
+      <div class="footer  bg-orange-100 text-black flex flex-col pl-10 lg:pl-48 py-20">
+        <div class="flex justify-between">
+          <img src="./images/cup.png" alt="">
+          <p>
+            <span>Ready to get strated?</span>
+            <button class="btn btn-primary">Get Started</button>
+          </p>
+        </div>
+        <div class="flex gap-20 lg:gap-56 ">
+          <div class="flex flex-col gap-3">
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </div>
+          <form>
+            <h6 class="footer-title">Newsletter</h6>
+            <fieldset class="form-control w-80">
+              <label class="label">
+                <span class="label-text">Enter your email address</span>
+              </label>
+              <div class="join">
+                <input
+                  type="text"
+                  placeholder="username@site.com"
+                  class="input input-bordered join-item" />
+                <button class="btn btn-primary join-item">Subscribe</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="text-center">
+          <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+        </div>
+      </div>
     </footer>
 </body>
 </html>
